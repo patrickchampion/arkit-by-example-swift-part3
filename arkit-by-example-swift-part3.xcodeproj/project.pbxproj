@@ -8,22 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		CD5D61B51F50BFBA002CBEBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D61B41F50BFBA002CBEBA /* AppDelegate.swift */; };
-		CD5D61B71F50BFBA002CBEBA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5D61B61F50BFBA002CBEBA /* art.scnassets */; };
 		CD5D61B91F50BFBA002CBEBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D61B81F50BFBA002CBEBA /* ViewController.swift */; };
 		CD5D61BC1F50BFBA002CBEBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5D61BA1F50BFBA002CBEBA /* Main.storyboard */; };
 		CD5D61BE1F50BFBA002CBEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5D61BD1F50BFBA002CBEBA /* Assets.xcassets */; };
 		CD5D61C11F50BFBA002CBEBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5D61BF1F50BFBA002CBEBA /* LaunchScreen.storyboard */; };
+		CD5D61C91F50C168002CBEBA /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D61C81F50C168002CBEBA /* Plane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0FAAF91F536F3400E74C4A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CD5D61B11F50BFB9002CBEBA /* arkit-by-example-swift-part3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arkit-by-example-swift-part3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5D61B41F50BFBA002CBEBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD5D61B61F50BFBA002CBEBA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		CD5D61B81F50BFBA002CBEBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD5D61BB1F50BFBA002CBEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD5D61BD1F50BFBA002CBEBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD5D61C01F50BFBA002CBEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD5D61C21F50BFBA002CBEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5D61C81F50C168002CBEBA /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		CD5D61A81F50BFB9002CBEBA = {
 			isa = PBXGroup;
 			children = (
+				CD0FAAF91F536F3400E74C4A /* README.md */,
 				CD5D61B31F50BFB9002CBEBA /* arkit-by-example-swift-part3 */,
 				CD5D61B21F50BFB9002CBEBA /* Products */,
 			);
@@ -57,9 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				CD5D61B41F50BFBA002CBEBA /* AppDelegate.swift */,
-				CD5D61B61F50BFBA002CBEBA /* art.scnassets */,
 				CD5D61B81F50BFBA002CBEBA /* ViewController.swift */,
 				CD5D61BA1F50BFBA002CBEBA /* Main.storyboard */,
+				CD5D61C81F50C168002CBEBA /* Plane.swift */,
 				CD5D61BD1F50BFBA002CBEBA /* Assets.xcassets */,
 				CD5D61BF1F50BFBA002CBEBA /* LaunchScreen.storyboard */,
 				CD5D61C21F50BFBA002CBEBA /* Info.plist */,
@@ -126,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD5D61B71F50BFBA002CBEBA /* art.scnassets in Resources */,
 				CD5D61C11F50BFBA002CBEBA /* LaunchScreen.storyboard in Resources */,
 				CD5D61BE1F50BFBA002CBEBA /* Assets.xcassets in Resources */,
 				CD5D61BC1F50BFBA002CBEBA /* Main.storyboard in Resources */,
@@ -141,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD5D61B91F50BFBA002CBEBA /* ViewController.swift in Sources */,
+				CD5D61C91F50C168002CBEBA /* Plane.swift in Sources */,
 				CD5D61B51F50BFBA002CBEBA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

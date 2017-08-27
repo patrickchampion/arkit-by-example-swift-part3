@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  arkit-by-example-swift-part3
+//  ArkitTest-Part3
 //
-//  Created by Patrick on 25/08/2017.
+//  Created by Patrick on 28/07/2017.
 //  Copyright © 2017 0xDD. All rights reserved.
 //
 
